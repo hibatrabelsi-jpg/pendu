@@ -15,3 +15,4 @@ def sauvegarder_score(nom_joueur, score, fichier='data/scores.txt'):
     chemin = os.path.join(os.path.dirname(__file__), '..', fichier)
     with open(chemin, 'a', encoding='utf-8') as f:
         f.write(f"{nom_joueur},{score}\n")
+        
