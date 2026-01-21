@@ -1,6 +1,7 @@
 import random
 from file_handler import charger_mots, sauvegarder_score
 
+# Jeu en MODE CONSOLE (terminal)
 # Affiche le mot avec des _ pour les lettres non trouvées
 def afficher_mot(mot, lettres_ok):
     resultat = ""
