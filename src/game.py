@@ -1,5 +1,5 @@
 import random
-from file_handler import charger_mots, suavegarder_score
+from file_handler import charger_mots, sauvegarder_score
 
 # Affiche le mot avec des _ pour les lettres non trouvées
 def afficher_mot(mot, lettres_ok):
@@ -8,9 +8,9 @@ def afficher_mot(mot, lettres_ok):
         if lettre in lettres_ok:
             resultat += lettre + " "
         else:
-            resultat += "_"
+            resultat += "_ "
     return resultat
-        
+
 # Fonction principale du jeu
 def jouer():
     # Choisir un mot au hasard
