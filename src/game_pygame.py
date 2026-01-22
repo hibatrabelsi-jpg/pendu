@@ -95,13 +95,17 @@ def jouer_pygame():
                                 fini = True
             
             # ESPACE pour retour menu si partie finie
+            # Retour menu si fini
+            # Retour menu si fini
             if event.type == pygame.KEYDOWN and fini:
                 if event.key == pygame.K_SPACE:
-                    # Sauvegarder le score si gagné
                     if gagne:
                         score = (7 - erreurs) * 100
-                        sauvegarder_score("Joueur", score)
-                    return  # Retour au menu
+                        try:
+                            sauvegarder_score("Nelly", score)  # CHANGE "Joueur" → "Nelly"
+                        except:
+                            pass
+                    return
         
         # ========================================
         # Dessiner tout à l'écran

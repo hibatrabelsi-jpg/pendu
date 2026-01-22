@@ -4,11 +4,13 @@
 import pygame
 from menu import menu_principal
 from game_pygame import jouer_pygame
-from scores import afficher_scores
+from file_handler import charger_scores
 
 def main():
-    # Boucle pour revenir au menu après chaque action
     while True:
+        pygame.quit()  # Fermer proprement
+        pygame.init()  # Réinitialiser
+        
         choix = menu_principal()
         
         if choix == "jouer":
