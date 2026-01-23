@@ -302,4 +302,3 @@ def menu_console() -> None:
 
 if __name__ == "__main__":
     menu_console()
-
