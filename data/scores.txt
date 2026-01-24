@@ -1,4 +1,5 @@
-Nelly,400
-Nelly,600
-NELLY,300
-NELLY,200
+hiba;0;facile
+louis;0;difficile
+l;12;difficile
+louis;3;facile
+louis;0;facile
