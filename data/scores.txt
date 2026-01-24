@@ -1,1 +1,5 @@
 hiba;0;facile
+louis;0;difficile
+l;12;difficile
+louis;3;facile
+louis;0;facile
